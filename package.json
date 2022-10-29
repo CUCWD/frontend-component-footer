@@ -1,6 +1,5 @@
 {
-  "name": "@edx/frontend-component-footer",
-  "version": "1.0.0-semantically-released",
+  "name": "@cucwd-prod/frontend-component-footer",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
   "publishConfig": {
@@ -25,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/frontend-component-footer.git"
+    "url": "git+https://github.com/CUCWD/frontend-component-footer.git"
   },
-  "author": "edX",
+  "author": "edX, CUCWD",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/edx/frontend-component-footer/issues"
+    "url": "https://github.com/CUCWD/frontend-component-footer/issues"
   },
-  "homepage": "https://github.com/edx/frontend-component-footer#readme",
+  "homepage": "https://github.com/CUCWD/frontend-component-footer#readme",
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-angular": "12.1.4",
