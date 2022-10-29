@@ -49,7 +49,6 @@ class SiteFooter extends React.Component {
       intl,
     } = this.props;
     const showLanguageSelector = supportedLanguages.length > 0 && onLanguageSelected;
-    const { config } = this.context;
 
     return (
       <footer
