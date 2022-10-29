@@ -1,5 +1,9 @@
 name: Default CI
 on: [push, pull_request]
+
+env:
+  NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
 jobs:
   build:
     runs-on: ubuntu-latest
