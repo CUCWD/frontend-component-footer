@@ -2,4 +2,10 @@ $gray-footer: #fcfcfc !default;
 
 .footer {
   background-color: $gray-footer;
+
+  img {
+    // This accounts for SVG files that might not have a specific height set.
+    height: 100% !important;
+  }
+
 }
