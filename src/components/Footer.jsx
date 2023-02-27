@@ -48,13 +48,15 @@ class SiteFooter extends React.Component {
       intl,
     } = this.props;
     const showLanguageSelector = supportedLanguages.length > 0 && onLanguageSelected;
+    const copyrightName = getConfig().COPYRIGHT_NAME || 'Clemson University';
+    const currentYear = new Date().getFullYear();
 
     return (
       <footer
         role="contentinfo"
-        className="footer d-flex border-top py-3 px-4"
+        className="footer border-top py-3 px-4"
       >
-        <div className="container-fluid d-flex">
+        <div className="container-fluid d-flex flex-wrap py-3">
           <a
             className="d-block"
             href="https://open.edx.org"
@@ -73,6 +75,11 @@ class SiteFooter extends React.Component {
               onSubmit={onLanguageSelected}
             />
           )}
+        </div>
+        <div className="container-fluid d-flex flex-wrap border-top py-3 px-4">
+          <p className="copyright d-block">
+            Copyright © {copyrightName} {currentYear}. All Rights Reserved.
+          </p>
         </div>
       </footer>
     );
