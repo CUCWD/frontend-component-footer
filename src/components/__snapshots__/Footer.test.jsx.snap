@@ -2,11 +2,11 @@
 
 exports[`<Footer /> renders correctly renders with a language selector 1`] = `
 <footer
-  className="footer d-flex border-top py-3 px-4"
+  className="footer border-top py-3 px-4"
   role="contentinfo"
 >
   <div
-    className="container-fluid d-flex"
+    className="container-fluid d-flex flex-wrap py-3"
   >
     <a
       aria-label="edX Home"
@@ -69,16 +69,29 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
       </div>
     </form>
   </div>
+  <div
+    className="container-fluid d-flex flex-wrap border-top py-3 px-4"
+  >
+    <p
+      className="copyright d-block"
+    >
+      Copyright © 
+      Clemson University
+       
+      2023
+      . All Rights Reserved.
+    </p>
+  </div>
 </footer>
 `;
 
 exports[`<Footer /> renders correctly renders without a language selector 1`] = `
 <footer
-  className="footer d-flex border-top py-3 px-4"
+  className="footer border-top py-3 px-4"
   role="contentinfo"
 >
   <div
-    className="container-fluid d-flex"
+    className="container-fluid d-flex flex-wrap py-3"
   >
     <a
       aria-label="edX Home"
@@ -99,16 +112,29 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
       className="flex-grow-1"
     />
   </div>
+  <div
+    className="container-fluid d-flex flex-wrap border-top py-3 px-4"
+  >
+    <p
+      className="copyright d-block"
+    >
+      Copyright © 
+      Clemson University
+       
+      2023
+      . All Rights Reserved.
+    </p>
+  </div>
 </footer>
 `;
 
 exports[`<Footer /> renders correctly renders without a language selector in es 1`] = `
 <footer
-  className="footer d-flex border-top py-3 px-4"
+  className="footer border-top py-3 px-4"
   role="contentinfo"
 >
   <div
-    className="container-fluid d-flex"
+    className="container-fluid d-flex flex-wrap py-3"
   >
     <a
       aria-label="edX Home"
@@ -128,6 +154,19 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
     <div
       className="flex-grow-1"
     />
+  </div>
+  <div
+    className="container-fluid d-flex flex-wrap border-top py-3 px-4"
+  >
+    <p
+      className="copyright d-block"
+    >
+      Copyright © 
+      Clemson University
+       
+      2023
+      . All Rights Reserved.
+    </p>
   </div>
 </footer>
 `;
