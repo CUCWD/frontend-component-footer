@@ -70,7 +70,7 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
     </form>
   </div>
   <div
-    className="container-fluid d-flex flex-wrap border-top py-3 px-4"
+    className="container-fluid d-flex flex-wrap py-3"
   >
     <p
       className="copyright d-block"
@@ -113,7 +113,7 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
     />
   </div>
   <div
-    className="container-fluid d-flex flex-wrap border-top py-3 px-4"
+    className="container-fluid d-flex flex-wrap py-3"
   >
     <p
       className="copyright d-block"
@@ -156,7 +156,7 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
     />
   </div>
   <div
-    className="container-fluid d-flex flex-wrap border-top py-3 px-4"
+    className="container-fluid d-flex flex-wrap py-3"
   >
     <p
       className="copyright d-block"
