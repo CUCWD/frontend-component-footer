@@ -77,7 +77,7 @@ class SiteFooter extends React.Component {
             />
           )}
         </div>
-        <div className="container-fluid d-flex flex-wrap border-top py-3 px-4">
+        <div className="container-fluid d-flex flex-wrap py-3">
           <p className="copyright d-block">
             Copyright © {copyrightName} {currentYear}. All Rights Reserved.
           </p>
