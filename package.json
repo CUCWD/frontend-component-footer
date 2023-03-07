@@ -1,6 +1,5 @@
 {
   "name": "@cucwd-prod/frontend-component-footer",
-  "version": "v10.1.6-maple.3.4",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",
   "publishConfig": {
@@ -67,5 +66,6 @@
     "prop-types": "^15.5.10",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
-  }
+  },
+  "version": "10.1.6-maple.3.4"
 }
