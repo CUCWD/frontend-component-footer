@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { getConfig } from '@edx/frontend-platform';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { sendTrackEvent } from '@edx/frontend-platform/analytics';
 import { ensureConfig } from '@edx/frontend-platform/config';
@@ -64,7 +65,7 @@ class SiteFooter extends React.Component {
           >
             <img
               style={{ maxHeight: 45 }}
-              src={logo || config.LOGO_TRADEMARK_URL}
+              src={logo || getConfig().LOGO_TRADEMARK_URL}
               alt={intl.formatMessage(messages['footer.logo.altText'])}
             />
           </a>

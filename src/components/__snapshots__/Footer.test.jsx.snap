@@ -78,7 +78,7 @@ exports[`<Footer /> renders correctly renders with a language selector 1`] = `
       Copyright © 
       Clemson University
        
-      2023
+      2024
       . All Rights Reserved.
     </p>
   </div>
@@ -121,7 +121,7 @@ exports[`<Footer /> renders correctly renders without a language selector 1`] = 
       Copyright © 
       Clemson University
        
-      2023
+      2024
       . All Rights Reserved.
     </p>
   </div>
@@ -164,7 +164,7 @@ exports[`<Footer /> renders correctly renders without a language selector in es 
       Copyright © 
       Clemson University
        
-      2023
+      2024
       . All Rights Reserved.
     </p>
   </div>
